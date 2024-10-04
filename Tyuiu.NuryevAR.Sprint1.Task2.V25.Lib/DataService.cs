@@ -6,7 +6,8 @@ namespace Tyuiu.NuryevAR.Sprint1.Task2.V25.Lib
     {
         public double ConvertRadsToDegrees(int value)
         {
-            return value * 57.296;
+            double degrees = value * 57.2958;
+            return Math.Round(degrees, 3);
         }
     }
 }

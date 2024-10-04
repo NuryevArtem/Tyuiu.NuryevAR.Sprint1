@@ -29,14 +29,14 @@ namespace Tyuiu.NuryevAR.Sprint1.Task2.V25
 
             int x;
 
-            Console.WriteLine("Введите угол в радианах X:");
+            Console.WriteLine("Введите угол в радианах:");
             x = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ                                                               *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine("Угол в градусах X = " + ds.ConvertRadsToDegrees(x));
+            Console.WriteLine("Угол в градусах = " + ds.ConvertRadsToDegrees(x));
 
             Console.ReadLine();
         }
