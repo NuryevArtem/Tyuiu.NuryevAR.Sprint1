@@ -1,6 +1,6 @@
-﻿using Tyuiu.NuryevAR.Sprint1.Task2.V25.Lib;
+﻿using Tyuiu.NuryevAR.Sprint1.Task3.V12.Lib;
 
-namespace Tyuiu.NuryevAR.Sprint1.Task2.V25
+namespace Tyuiu.NuryevAR.Sprint1.Task3.V12
 {
     internal class Program
     {
@@ -12,31 +12,31 @@ namespace Tyuiu.NuryevAR.Sprint1.Task2.V25
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
             Console.WriteLine("* Тема: Базовые навыки работы в C#                                        *");
-            Console.WriteLine("* Задание #2                                                              *");
-            Console.WriteLine("* Вариант #25                                                             *");
+            Console.WriteLine("* Задание #3                                                              *");
+            Console.WriteLine("* Вариант #12                                                             *");
             Console.WriteLine("* Выпонил: Нурыев Артём Радикович | ИИПб-24-2                             *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
-            Console.WriteLine("* Написать программу, которая запрашивает у пользователя исходные данные, *");
-            Console.WriteLine("* выполняет указанные расчёты и печатает результат на экране              *");
-            Console.WriteLine("* Формулировка задания: Известен угол в радианах. Перевести угол в        *");
-            Console.WriteLine("* градусы. Ответ округлите до 3 знаков после запятой                      *");
-            Console.WriteLine("* Что пользователь вводит? Угол в радианах (целое число)                  *");
-            Console.WriteLine("* Что программа печатает на экране? Угол в градусах (вещественное число)  *");
+            Console.WriteLine("* Написать программу для вычисления площади прямоугольного треугольника по*");
+            Console.WriteLine("* длинам двух катетов. Ответ округлите до 3 знаков после запятой.         *");
+            Console.WriteLine("*                                                                         *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
-            int x;
+            double lengthCathetus1 = 14;
+            double lengthCathetus2 = 19;
 
-            Console.WriteLine("Введите угол в радианах:");
-            x = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Сторона катета 1 = " + lengthCathetus1);
+            Console.WriteLine("Сторона катета 2 = " + lengthCathetus2);
+
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ                                                               *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine("Угол в градусах = " + ds.ConvertRadsToDegrees(x));
+            Console.WriteLine("Площадь треугольника = " + ds.TriangleArea(lengthCathetus1, lengthCathetus2));
 
             Console.ReadLine();
         }
