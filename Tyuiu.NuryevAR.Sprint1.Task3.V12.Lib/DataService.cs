@@ -6,7 +6,8 @@ namespace Tyuiu.NuryevAR.Sprint1.Task3.V12.Lib
     {
         public double TriangleArea(double lengthCathetus1, double lengthCathetus2)
         {
-            return (lengthCathetus1 * lengthCathetus2) / 2;
+            double degrees = (lengthCathetus1 * lengthCathetus2) / 2;
+            return Math.Round(degrees, 3);
         }
     }
 }

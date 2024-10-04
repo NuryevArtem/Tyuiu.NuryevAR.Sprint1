@@ -24,8 +24,8 @@ namespace Tyuiu.NuryevAR.Sprint1.Task3.V12
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
-            double lengthCathetus1 = 14;
-            double lengthCathetus2 = 19;
+            double lengthCathetus1 = 14.537;
+            double lengthCathetus2 = 19.382;
 
 
             Console.WriteLine("Сторона катета 1 = " + lengthCathetus1);
