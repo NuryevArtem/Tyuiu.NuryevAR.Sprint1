@@ -9,10 +9,10 @@ namespace Tyuiu.NuryevAR.Sprint1.Task7.V1.Test
         public void ValidExpression()
         {
             DataService ds = new DataService();
-            double x = 3;
-            double y = 2;
-            double z = 1;
-            double wait = 0.75;
+            double x = 2;
+            double y = 4;
+            double z = 5;
+            double wait = 0.3;
             var res = ds.Calculate(x, y, z);
             Assert.AreEqual(wait, res);
         }
