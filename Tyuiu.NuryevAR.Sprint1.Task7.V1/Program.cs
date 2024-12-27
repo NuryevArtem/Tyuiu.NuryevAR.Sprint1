@@ -25,7 +25,7 @@ namespace Tyuiu.NuryevAR.Sprint1.Task7.V1
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("*     y + √y^2 + 4 x z                                                    *");
             Console.WriteLine("* f = ---------------- - x^3 z + y^-2                                     *");
-            Console.WriteLine("*            2x                                                           *");
+            Console.WriteLine("*           2x                                                            *");
             Console.WriteLine("***************************************************************************");
 
             Console.WriteLine("Введите значение x: ");

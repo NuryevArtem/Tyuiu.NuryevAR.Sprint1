@@ -7,7 +7,7 @@ namespace Tyuiu.NuryevAR.Sprint1.Task7.V1.Lib
         public double Calculate(double x, double y, double z)
         {
             double res = (y + Math.Sqrt(Math.Pow(y, 2) + 4 * x * z)) / (2 * x) - Math.Pow(x, 3) * z + Math.Pow(y, -2);
-            return res;
+            return Math.Round(res, 3);
         }
     }
 }
